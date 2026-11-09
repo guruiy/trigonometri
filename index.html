@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="id" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10233f">
+  <meta name="description" content="Multimedia Pembelajaran Interaktif Trigonometri Kelas X berbasis literasi numerasi, disusun oleh Ida Yuniar Tryastuti, S.Pd.">
+  <title>Trigonometri dalam Kehidupan — MPI Literasi Numerasi Kelas X</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#konten">Lewati ke konten utama</a>
+  <header class="site-header">
+    <a class="brand" href="#beranda" aria-label="Beranda MPI Trigonometri">
+      <span class="brand-mark" aria-hidden="true"><span>sin</span><span>cos</span><span>tan</span></span>
+      <span class="brand-copy"><strong>TRIGONOMETRI</strong><small>Literasi Numerasi · Kelas X</small></span>
+    </a>
+    <nav class="main-nav" aria-label="Navigasi utama">
+      <a href="#konsep">Konsep</a>
+      <a href="#kalkulator">Kalkulator</a>
+      <a href="#kasus">Studi kasus</a>
+      <a href="#lembar">Lembar F4</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-button" id="themeToggle" type="button" aria-label="Ganti tema" title="Ganti tema"><span id="themeIcon" aria-hidden="true">◐</span></button>
+      <button class="icon-button" id="fullscreenToggle" type="button" aria-label="Aktifkan layar penuh" title="Layar penuh"><span aria-hidden="true">⛶</span></button>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="mobileNav" aria-label="Buka navigasi">☰</button>
+    </div>
+  </header>
+  <nav class="mobile-nav" id="mobileNav" aria-label="Navigasi seluler" hidden>
+    <a href="#konsep">Konsep</a><a href="#kalkulator">Kalkulator</a><a href="#kasus">Studi kasus</a><a href="#lembar">Lembar F4</a>
+  </nav>
+
+  <main id="konten">
+    <section class="hero section-wrap" id="beranda">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-dot"></span> MULTIMEDIA PEMBELAJARAN INTERAKTIF</div>
+        <h1>Trigonometri,<br><em>dari sudut ke</em> <span>keputusan.</span></h1>
+        <p class="hero-lead">Matematika bukan sekadar rumus. Gunakan perbandingan trigonometri untuk membaca situasi nyata, mengolah data, dan mengambil keputusan yang masuk akal.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#konsep">Mulai belajar <span aria-hidden="true">→</span></a>
+          <a class="button button-quiet" href="#kasus">Jelajahi studi kasus</a>
+        </div>
+        <div class="hero-meta">
+          <span><b>Fase E</b> · SMA Kelas X</span><span class="meta-separator">/</span><span>Materi penerapan trigonometri</span>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Ilustrasi segitiga siku-siku dan sudut theta">
+        <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+        <div class="art-tag tag-top">θ = sudut</div><div class="art-tag tag-bottom">jarak · tinggi · keputusan</div>
+        <svg class="hero-triangle" viewBox="0 0 440 330" role="img" aria-labelledby="triangleTitle triangleDesc">
+          <title id="triangleTitle">Segitiga siku-siku</title><desc id="triangleDesc">Sisi samping, sisi depan, dan sisi miring membentuk sudut theta.</desc>
+          <path d="M62 270 L370 270 L370 72 Z" fill="rgba(32,181,169,.12)" stroke="none"/>
+          <path d="M62 270 L370 270 L370 72 Z" fill="none" stroke="currentColor" stroke-width="5" stroke-linejoin="round"/>
+          <path d="M348 270 L348 248 L370 248" fill="none" stroke="currentColor" stroke-width="3"/>
+          <path d="M119 270 A57 57 0 0 0 115 235" fill="none" stroke="#F2B84B" stroke-width="4"/>
+          <text x="130" y="245" class="svg-theta">θ</text>
+          <text x="205" y="304" class="svg-label">sisi samping</text>
+          <text x="388" y="175" class="svg-label svg-vertical">sisi depan</text>
+          <text x="190" y="145" class="svg-label svg-hyp">sisi miring</text>
+          <circle cx="62" cy="270" r="7" fill="#F2B84B"/><circle cx="370" cy="72" r="7" fill="#F2B84B"/>
+        </svg>
+        <div class="hero-art-caption"><span class="caption-line"></span> Memodelkan persoalan dengan segitiga siku-siku</div>
+      </div>
+      <div class="hero-bottomline"><span>01</span><span class="hero-bottom-rule"></span><span>AMATI · MODELKAN · HITUNG · TAFSIRKAN</span></div>
+    </section>
+
+    <section class="learning-strip section-wrap" id="arah">
+      <div class="section-intro compact-intro">
+        <div class="eyebrow">ARAH PEMBELAJARAN</div>
+        <h2>Di akhir pembelajaran,<br><span>kamu mampu…</span></h2>
+      </div>
+      <div class="goal-grid">
+        <article class="goal-card"><span class="goal-number">01</span><div><h3>Memahami</h3><p>Mengenali sudut elevasi, sudut depresi, dan sisi pada segitiga siku-siku.</p></div></article>
+        <article class="goal-card"><span class="goal-number">02</span><div><h3>Menggunakan</h3><p>Memilih sinus, kosinus, atau tangen sesuai data yang diketahui.</p></div></article>
+        <article class="goal-card"><span class="goal-number">03</span><div><h3>Menganalisis</h3><p>Membaca tabel, membandingkan hasil, dan memeriksa kewajaran jawaban.</p></div></article>
+      </div>
+    </section>
+
+    <section class="concept-section section-wrap" id="konsep">
+      <div class="section-heading">
+        <div><div class="eyebrow">01 / BEKAL KONSEP</div><h2>Tiga rasio,<br><span>satu segitiga.</span></h2></div>
+        <p>Untuk sudut lancip θ pada segitiga siku-siku, tentukan dulu posisi sisi depan, samping, dan miring. Nama rasio mengikuti pasangan sisi yang digunakan.</p>
+      </div>
+      <div class="ratio-layout">
+        <div class="ratio-visual card-surface">
+          <svg viewBox="0 0 500 360" role="img" aria-labelledby="ratioTitle ratioDesc">
+            <title id="ratioTitle">Sisi segitiga untuk rasio trigonometri</title><desc id="ratioDesc">Segitiga 3-4-5: sisi depan 3, sisi samping 4, dan sisi miring 5 terhadap sudut theta di kiri bawah.</desc>
+            <path d="M75 290 L395 290 L395 50 Z" fill="rgba(36,105,232,.10)"/>
+            <path d="M75 290 L395 290 L395 50 Z" fill="none" stroke="var(--ink)" stroke-width="4" stroke-linejoin="round"/>
+            <path d="M372 290 L372 267 L395 267" fill="none" stroke="var(--muted)" stroke-width="2.5"/>
+            <path d="M125 290 A50 50 0 0 0 122 253" fill="none" stroke="#D99A27" stroke-width="3"/>
+            <text x="143" y="267" fill="#D99A27" font-size="24" font-weight="700">θ</text>
+            <text x="218" y="323" fill="var(--ink)" font-size="19" font-weight="700" text-anchor="middle">4 · samping</text>
+            <text x="416" y="176" fill="var(--ink)" font-size="18" font-weight="700">3</text><text x="416" y="199" fill="var(--muted)" font-size="14">depan</text>
+            <text x="198" y="145" fill="var(--ink)" font-size="18" font-weight="700" transform="rotate(-37 198 145)">5 · miring</text>
+            <text x="62" y="316" fill="var(--muted)" font-size="13">Sudut acuan θ</text>
+          </svg>
+          <div class="visual-note"><span class="note-dot"></span> Contoh ilustrasi segitiga 3–4–5</div>
+        </div>
+        <div class="ratio-cards">
+          <article class="ratio-card ratio-sin"><div class="ratio-symbol">sin</div><div><h3>Sinus</h3><div class="formula">sin θ = depan / miring</div><p>Menghubungkan sisi depan dengan sisi miring.</p></div></article>
+          <article class="ratio-card ratio-cos"><div class="ratio-symbol">cos</div><div><h3>Kosinus</h3><div class="formula">cos θ = samping / miring</div><p>Menghubungkan sisi samping dengan sisi miring.</p></div></article>
+          <article class="ratio-card ratio-tan"><div class="ratio-symbol">tan</div><div><h3>Tangen</h3><div class="formula">tan θ = depan / samping</div><p>Menghubungkan tinggi relatif dengan jarak mendatar.</p></div></article>
+        </div>
+      </div>
+      <div class="concept-footnote"><span class="info-mark">i</span><p><strong>Ingat:</strong> gunakan mode <strong>DEG</strong> (derajat) pada kalkulator ketika sudut ditulis dalam °. Untuk mencari tinggi dari jarak mendatar dan sudut elevasi, tangen sering menjadi pilihan yang tepat.</p></div>
+    </section>
+
+    <section class="calculator-section section-wrap" id="kalkulator">
+      <div class="calculator-copy">
+        <div class="eyebrow">02 / LABORATORIUM HITUNG</div>
+        <h2>Ubah sudut,<br><span>amati dampaknya.</span></h2>
+        <p>Bayangkan kamu mengukur tinggi tiang. Ubah sudut elevasi dan jarak pengamat untuk melihat bagaimana perkiraan tinggi ikut berubah.</p>
+        <div class="calc-control">
+          <div class="control-heading"><label for="angleRange">Sudut elevasi</label><output id="angleValue" for="angleRange">38°</output></div>
+          <input type="range" id="angleRange" min="10" max="75" step="1" value="38">
+          <div class="range-scale"><span>10°</span><span>75°</span></div>
+        </div>
+        <div class="calc-control">
+          <div class="control-heading"><label for="distanceInput">Jarak mendatar</label><span class="input-with-unit"><input type="number" id="distanceInput" min="1" max="100" step="0.5" value="12"><span>m</span></span></div>
+        </div>
+        <div class="calc-control">
+          <div class="control-heading"><label for="eyeInput">Tinggi mata pengamat</label><span class="input-with-unit"><input type="number" id="eyeInput" min="0" max="3" step="0.05" value="1.5"><span>m</span></span></div>
+        </div>
+        <div class="calc-formula">tinggi objek = jarak × tan(θ) + tinggi mata</div>
+      </div>
+      <div class="calculator-panel card-surface">
+        <div class="panel-topline"><span class="live-dot"></span> SIMULASI LANGSUNG <span class="panel-tag">DEG</span></div>
+        <svg class="calc-diagram" id="calcDiagram" viewBox="0 0 420 250" role="img" aria-label="Diagram pengukuran tinggi objek yang menyesuaikan nilai sudut">
+          <line x1="38" y1="205" x2="385" y2="205" stroke="var(--muted)" stroke-width="3"/>
+          <rect id="calcPole" x="335" y="65" width="18" height="140" rx="4" fill="#2B69E8"/>
+          <line id="calcSight" x1="75" y1="165" x2="344" y2="65" stroke="#E3A32C" stroke-width="3.5" stroke-dasharray="8 7"/>
+          <line x1="75" y1="165" x2="75" y2="205" stroke="#16A79A" stroke-width="2" stroke-dasharray="4 4"/>
+          <path id="calcAngleArc" d="M112 165 A37 37 0 0 0 109 150" fill="none" stroke="#E3A32C" stroke-width="2.5"/>
+          <text id="calcAngleText" x="120" y="151" fill="#C2871E" font-size="17" font-weight="700">38°</text>
+          <text x="75" y="225" fill="var(--muted)" font-size="13" text-anchor="middle">Pengamat</text>
+          <text x="344" y="225" fill="var(--muted)" font-size="13" text-anchor="middle">Objek</text>
+          <text x="210" y="192" fill="var(--muted)" font-size="13" text-anchor="middle">jarak mendatar</text>
+        </svg>
+        <div class="calc-results">
+          <div><span>Selisih tinggi</span><strong id="heightDifference">9,38 <small>m</small></strong></div>
+          <div><span>Perkiraan tinggi objek</span><strong id="objectHeight">10,88 <small>m</small></strong></div>
+        </div>
+        <p class="calc-caution">Hasil merupakan estimasi matematis. Ketelitian dipengaruhi ketepatan pengukuran sudut, jarak, dan tinggi mata.</p>
+      </div>
+    </section>
+
+    <section class="case-section section-wrap" id="kasus">
+      <div class="section-heading case-heading">
+        <div><div class="eyebrow">03 / TANTANGAN NUMERASI</div><h2>Matematika di<br><span>sekitar kita.</span></h2></div>
+        <p>Baca situasi, cermati data, lalu selesaikan persoalan. Jawaban numerik menerima tanda koma maupun titik desimal. Berikan perhatian pada satuan dan pembulatan.</p>
+      </div>
+      <div class="case-selector" id="caseSelector" aria-label="Pilih studi kasus">
+        <button class="case-choice active" type="button" data-open-case="0"><span class="case-index">KASUS 01</span><strong>Tiang bendera</strong><small>Sudut elevasi · Tangen</small><span class="case-arrow">↗</span></button>
+        <button class="case-choice" type="button" data-open-case="1"><span class="case-index">KASUS 02</span><strong>Jalur perpustakaan</strong><small>Kemiringan · Pythagoras</small><span class="case-arrow">↗</span></button>
+        <button class="case-choice" type="button" data-open-case="2"><span class="case-index">KASUS 03</span><strong>Kabel penyangga</strong><small>Sinus · Kosinus</small><span class="case-arrow">↗</span></button>
+      </div>
+      <div class="workspace card-surface" id="workspace" aria-live="polite">
+        <div class="workspace-header"><div><div class="eyebrow">RUANG AKTIVITAS</div><h3 id="workspaceTitle">Kasus 01 · Seberapa tinggi tiang bendera?</h3></div><div class="progress-chip"><span id="caseProgress">0/4 diperiksa</span><span class="progress-dot"></span></div></div>
+        <div class="case-story" id="caseStory"></div>
+        <form id="caseForm" novalidate>
+          <div class="question-list" id="questionList"></div>
+          <div class="case-submit-row"><p id="caseHint">Pilih atau masukkan jawaban, lalu periksa untuk mendapatkan umpan balik.</p><button class="button button-primary" type="submit">Periksa jawaban <span aria-hidden="true">→</span></button></div>
+        </form>
+      </div>
+      <div class="assessment-summary card-surface" id="assessmentSummary">
+        <div class="summary-icon" aria-hidden="true">✓</div>
+        <div class="summary-copy"><span class="eyebrow">REKAP HASIL BELAJAR</span><h3 id="summaryTitle">Latihanmu tersimpan di perangkat ini.</h3><p id="summaryText">Jawab dan periksa pertanyaan pada ketiga studi kasus. Skor akan bertambah sesuai jawaban yang benar.</p></div>
+        <div class="summary-score"><strong id="summaryScore">—</strong><span>skor sementara</span><button class="reset-button" id="resetProgress" type="button">Ulangi</button></div>
+      </div>
+    </section>
+
+    <section class="method-section section-wrap">
+      <div class="method-heading"><div class="eyebrow">STRATEGI PEMECAHAN</div><h2>Jangan buru-buru<br><span>memasukkan angka.</span></h2></div>
+      <div class="method-steps">
+        <div class="method-step"><span>1</span><div><h3>Pahami konteks</h3><p>Apa yang sedang diukur atau dibandingkan?</p></div></div>
+        <div class="method-step"><span>2</span><div><h3>Buat model</h3><p>Tandai sudut, sisi, data, dan satuannya.</p></div></div>
+        <div class="method-step"><span>3</span><div><h3>Pilih rasio</h3><p>Tentukan sin, cos, atau tan berdasarkan sisi yang diketahui.</p></div></div>
+        <div class="method-step"><span>4</span><div><h3>Tafsirkan hasil</h3><p>Periksa pembulatan dan apakah hasilnya masuk akal.</p></div></div>
+      </div>
+    </section>
+
+    <section class="worksheet-section section-wrap" id="lembar">
+      <div class="section-heading">
+        <div><div class="eyebrow">04 / LEMBAR KERJA CETAK</div><h2>Siapkan versi<br><span>kertas F4.</span></h2></div>
+        <div class="worksheet-sidecopy"><p>Tiga lembar studi kasus tersedia sebagai gambar PNG ukuran 21,6 × 33 cm (F4), resolusi 300 dpi. Unduh per kasus atau cetak seluruh lembar.</p><button class="button button-primary" id="printAll" type="button">Cetak semua lembar <span aria-hidden="true">↗</span></button></div>
+      </div>
+      <div class="worksheet-grid">
+        <article class="worksheet-card"><a class="worksheet-preview" href="assets/lembar-f4/kasus-01-tiang-bendera.png" target="_blank" rel="noopener"><img src="assets/lembar-f4/kasus-01-tiang-bendera.png" alt="Pratinjau lembar F4 studi kasus mengukur tinggi tiang bendera" loading="lazy"><span class="preview-open">Lihat ukuran penuh ↗</span></a><div class="worksheet-card-info"><div><span>LEMBAR 01</span><h3>Seberapa tinggi tiang bendera?</h3><small>Sudut elevasi dan tangen</small></div><a class="download-link" href="assets/lembar-f4/kasus-01-tiang-bendera.png" download="Lembar-F4-Kasus-01-Tiang-Bendera.png" aria-label="Unduh lembar F4 kasus 1">↓</a></div></article>
+        <article class="worksheet-card"><a class="worksheet-preview" href="assets/lembar-f4/kasus-02-jalur-miring.png" target="_blank" rel="noopener"><img src="assets/lembar-f4/kasus-02-jalur-miring.png" alt="Pratinjau lembar F4 studi kasus rancangan jalur miring perpustakaan" loading="lazy"><span class="preview-open">Lihat ukuran penuh ↗</span></a><div class="worksheet-card-info"><div><span>LEMBAR 02</span><h3>Rancangan jalur perpustakaan</h3><small>Kemiringan dan panjang sisi</small></div><a class="download-link" href="assets/lembar-f4/kasus-02-jalur-miring.png" download="Lembar-F4-Kasus-02-Jalur-Miring.png" aria-label="Unduh lembar F4 kasus 2">↓</a></div></article>
+        <article class="worksheet-card"><a class="worksheet-preview" href="assets/lembar-f4/kasus-03-kabel-penyangga.png" target="_blank" rel="noopener"><img src="assets/lembar-f4/kasus-03-kabel-penyangga.png" alt="Pratinjau lembar F4 studi kasus kabel penyangga tiang jaringan" loading="lazy"><span class="preview-open">Lihat ukuran penuh ↗</span></a><div class="worksheet-card-info"><div><span>LEMBAR 03</span><h3>Menguatkan tiang jaringan</h3><small>Sinus dan kosinus</small></div><a class="download-link" href="assets/lembar-f4/kasus-03-kabel-penyangga.png" download="Lembar-F4-Kasus-03-Kabel-Penyangga.png" aria-label="Unduh lembar F4 kasus 3">↓</a></div></article>
+      </div>
+      <p class="print-note"><span class="info-mark">i</span> Saat mencetak, pilih ukuran kertas F4/Folio (21,6 × 33 cm), skala 100% atau “ukuran sebenarnya”, dan nonaktifkan header/footer browser.</p>
+    </section>
+
+    <section class="teacher-section section-wrap" id="guru">
+      <div class="teacher-seal" aria-hidden="true"><span>GURU</span><strong>MTK</strong><small>SMA</small></div>
+      <div class="teacher-details"><div class="eyebrow">PENGEMBANG / GURU PENGAMPU</div><h2>IDA YUNIAR TRYASTUTI, S.Pd.</h2><div class="teacher-meta"><span>NIP 199206142022212009</span><span>Guru Matematika</span><span>SMA Negeri 1 Pagerbarang</span></div></div>
+      <div class="teacher-note">Belajar matematika dengan rasa ingin tahu, ketelitian, dan keberanian mengambil keputusan.</div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="footer-brand"><span class="brand-mark mini-mark">sin<br>cos<br>tan</span><div><strong>TRIGONOMETRI DALAM KEHIDUPAN</strong><small>MPI Literasi Numerasi · SMA Kelas X</small></div></div><div class="footer-right"><span>Materi penerapan trigonometri</span><span>© <span id="yearNow">2026</span> · Ida Yuniar Tryastuti, S.Pd.</span></div></footer>
+
+  <div class="print-only" aria-hidden="true">
+    <div class="print-sheet"><img src="assets/lembar-f4/kasus-01-tiang-bendera.png" alt=""></div>
+    <div class="print-sheet"><img src="assets/lembar-f4/kasus-02-jalur-miring.png" alt=""></div>
+    <div class="print-sheet"><img src="assets/lembar-f4/kasus-03-kabel-penyangga.png" alt=""></div>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="app.js" defer></script>
+</body>
+</html>
